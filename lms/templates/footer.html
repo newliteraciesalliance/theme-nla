@@ -42,17 +42,16 @@
         </li>
       </ul>
     </div>
-    {% if INDIGO_FOOTER_NAV_LINKS %}
     <nav class="nav-colophon" aria-label="${_('About')}">
       <ol>
-          {% for link in INDIGO_FOOTER_NAV_LINKS %}
           <li>
-            <a href="{{ link['url'] }}">{{ link['title'] }}</a>
+            <a href="https://newliteraciesalliance.org">About NLA</a>
           </li>
-          {% endfor %}
+          <li>
+            <a href="https://newliteraciesalliance.org/about-us/">Contacts }}</a>
+          </li>
       </ol>
     </nav>
-    {% endif %}
   </div>
   <span class="copyright-site" aria-label="legal">NLA lessons are all CC-BY-NC-SA.</span>
   % endif
@@ -106,17 +105,16 @@
           </li>
         </ul>
       </div>
-      {% if INDIGO_FOOTER_NAV_LINKS %}
       <nav class="nav-colophon" aria-label="${_('About')}">
         <ol>
-            {% for link in INDIGO_FOOTER_NAV_LINKS %}
-            <li>
-              <a href="{{ link['url'] }}">{{ link['title'] }}</a>
-            </li>
-            {% endfor %}
+          <li>
+            <a href="https://newliteraciesalliance.org">About NLA</a>
+          </li>
+          <li>
+            <a href="https://newliteraciesalliance.org/about-us/">Contacts }}</a>
+          </li>
         </ol>
       </nav>
-      {% endif %}
     </div>
     <span class="copyright-site" aria-label="legal">NLA lessons are all CC-BY-NC-SA.</span>
     % endif
